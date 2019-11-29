@@ -13,3 +13,4 @@
 然后，终端中执行命令 git rebase -i [SHA]，其中 SHA 是上一次提交之前的那次提交的，在这里是3b22372。
 ![git graph](./images/git-rebase-01.jpeg)
 最后，这样就将两次提交的节点合并成一个，甚至能够修改提交信息！
+![git graph](./images/git-history-02.jpeg)
