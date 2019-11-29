@@ -11,11 +11,11 @@
 - 不要每提交一次就推送一次，多积攒几个提交后一次性推送，这样可以避免在进行一次提交后发现代码中还有小错误。  
 
 假如已经把代码提交了，对这次提交的内容进行检查时发现里面有个变量单词拼错了或者其他失误，只要还没有推送到远程，就有一个不被他人发觉你的疏忽的补救方法——首先，把失误修正之后提交，可以用与上次提交同样的信息。  
-![git graph](./images/git-history.jpeg)
+![git graph](/images/git-history.jpeg)
 然后，终端中执行命令 git rebase -i **SHA**，其中 SHA 是上一次提交之前的那次提交的，在这里是3b22372。
-![git graph](./images/git-rebase-01.jpeg)
+![git graph](/images/git-rebase-01.jpeg)
 最后，这样就将两次提交的节点合并成一个，甚至能够修改提交信息！
-![git graph](./images/git-history-02.jpeg)
+![git graph](/images/git-history-02.jpeg)
 ### 1.2 推送
 当自己一个人进行开发时，在功能完成之前不要急着创建远程分支。
 ### 1.3 拉取
